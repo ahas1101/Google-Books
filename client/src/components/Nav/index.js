@@ -4,8 +4,8 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav id="nav" className="navbar navbar-expand-lg">
-      <a className="navbar-brand" href="/">
+    <nav id="nav" className="navbar navbar-right">
+      <a className="navbar-brand" href="/" style = {{color: "white"}}> 
         Google Books
       </a>
       <Link id="search" to="/" className={window.location.pathname === "/" || window.location.pathname === "/" ? "nav-link active" : "nav-link" } > Search </Link>
